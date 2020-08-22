@@ -1,0 +1,100 @@
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    }
+
+    input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+    }
+
+    /* Overwrite default styles of hr */
+    hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+    }
+
+    /* Set a style for the submit/register button */
+    .loginbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    }
+
+    .loginbtn:hover {
+    opacity:1;
+    }
+
+    /* Add a blue text color to links */
+    a {
+    color: dodgerblue;
+    }
+     .container {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+
+    html {
+        margin: 0px;
+        height: 100vh;
+        width: 100%;
+    }
+    body{
+        
+        background: linear-gradient(45deg, #49a09d, #5f2c82);
+        font-family: sans-serif;
+        font-weight: 100;
+        margin: 0px;
+        min-height: 100vh;
+        width: 100%;
+    }
+    
+    table {
+        width: 800px;
+        border-collapse: collapse;
+        overflow: hidden;
+        box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    }
+    
+    th,
+    td {
+        padding: 15px;
+        background-color: rgba(255,255,255,0.2);
+        color: #fff;
+    }
+    
+    th {
+        text-align: left;
+    }
+    
+    th {
+            background-color: #55608f;
+        }
+    
+    
+    tr :hover {
+                background-color: rgba(255,255,255,0.3);
+            }
+        
+        td :hover:before {
+                    content: "";
+                    position: absolute;
+                    left: 0;
+                    right: 0;
+                    top: -9999px;
+                    bottom: -9999px;
+                    background-color: rgba(255,255,255,0.2);
+                    z-index: -1;
+                }
+    

@@ -1,0 +1,21 @@
+﻿<html>
+    <body>
+        
+        <div class="container">
+            <form [formGroup] = "myForm" id = "mForm" (ngSubmit)="OnSubmit()">
+                <div class="container">
+                    <h1>Login</h1>
+                    <p>Please enter details to login.</p>
+                    <hr>
+            
+                    <label for="email"><b>Email</b></label>
+                    <input type="text" placeholder="Enter Email" formControlName = "email" required>
+            
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" formControlName = "password" required >
+                    <button type="submit" class="loginbtn">Login</button>
+                </div>
+            </form>
+        </div>
+    </body>
+</html> 
